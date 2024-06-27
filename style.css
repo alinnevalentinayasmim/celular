@@ -1,0 +1,68 @@
+/* Estilos para o corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px; /* Reduzindo o padding para telas menores */
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem; /* Tamanho da fonte aumentado para telas menores */
+}
+
+/* Estilos para a navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: block; /* Mudando para display block para telas menores */
+    margin-bottom: 10px; /* Espaçamento entre os itens de navegação */
+}
+
+nav ul li a {
+    display: block; /* Mudando para display block para telas menores */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px; /* Aumentando o padding para facilitar o toque em telas sensíveis */
+    border-radius: 5px; /* Borda arredondada nos botões */
+    background-color: #0056b3; /* Cor de fundo mais escura para destacar os links */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+nav ul li a:hover {
+    background-color: #004499; /* Cor de fundo mais escura no hover */
+}
+
+/* Estilos para as seções */
+section {
+    padding: 15px; /* Reduzindo o padding para telas menores */
+    margin-bottom: 20px; /* Espaçamento entre as seções */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar as seções */
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 1.5rem; /* Tamanho da fonte aumentado para telas menores */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px; /* Reduzindo o padding para telas menores */
+}
