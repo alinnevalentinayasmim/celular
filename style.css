@@ -87,6 +87,7 @@ footer {
         border-radius: 5px; /* Borda arredondada nos botões */
         border: 1px solid transparent; /* Adicionado uma borda transparente nos botões */
         transition: all 0.3s ease; /* Transição suave para efeito de hover */
+        background-color: transparent;
     }
     
     nav ul li a:hover {
