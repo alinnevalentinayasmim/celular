@@ -74,7 +74,11 @@ footer {
         margin-right: 10px; /* Reduzido o espaçamento entre os itens do menu */
     }
     ul{
-        display: inline;
+        display: flex;
+        justify-content: center;
+    }
+    li{
+        margin-left: 20px;
     }
     nav ul li a {
         color: #fff;
