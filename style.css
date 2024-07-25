@@ -41,10 +41,6 @@ nav ul li a {
     transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
 }
 
-nav ul li a:hover {
-    background-color: #004499; /* Cor de fundo mais escura no hover */
-}
-
 /* Estilos para as seções */
 section {
     padding: 15px; /* Reduzindo o padding para telas menores */
@@ -65,4 +61,31 @@ footer {
     color: #fff;
     text-align: center;
     padding: 15px; /* Reduzindo o padding para telas menores */
+}
+
+
+@media screen and (min-width: 1024px){
+    nav ul {
+        text-align: center; /* Centraliza os links na navegação */
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 10px; /* Reduzido o espaçamento entre os itens do menu */
+    }
+    
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 10px; /* Adicionado padding para melhorar a usabilidade em dispositivos móveis */
+        border-radius: 5px; /* Borda arredondada nos botões */
+        border: 1px solid transparent; /* Adicionado uma borda transparente nos botões */
+        transition: all 0.3s ease; /* Transição suave para efeito de hover */
+    }
+    
+    nav ul li a:hover {
+        background-color: rgba(255, 255, 255, 0.3); /* Fundo branco com opacidade no hover */
+        border-color: #fff; /* Borda branca no hover */
+    }
+    
 }
